@@ -26,3 +26,4 @@ jobs:
         docker login --username=hanervin --password=${{ secrets.DOCKERPW }} 
         docker image build -t hanervin/acggitops:hellov1.0 .
         docker push hanervin/acggitops:hellov1.0
+       
